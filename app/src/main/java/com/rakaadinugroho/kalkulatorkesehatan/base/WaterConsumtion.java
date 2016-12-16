@@ -9,9 +9,11 @@ import com.rakaadinugroho.kalkulatorkesehatan.R;
  * @Contact nugrohoraka@gmail.com
  */
 
-public class WaterConsumtion extends HealthCalc implements Suggest {
+public class WaterConsumtion extends HealthCalculator implements Suggest {
     private int need;
     private int age;
+
+
     public WaterConsumtion(){
         super();
         need    = 0;

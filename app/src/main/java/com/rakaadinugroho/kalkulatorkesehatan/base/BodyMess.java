@@ -13,12 +13,14 @@ import java.util.List;
  * @Reference https://www.masbroo.com/cara-menghitung-berat-badan-idea.html
  */
 
-public class BodyMess extends HealthCalc implements Suggest {
+public class BodyMess extends HealthCalculator implements Suggest {
     List<String> responses;
     boolean gender;
     int emoticon;
 
-    int[] emoticons;
+    /* Private Variable */
+    private int[] emoticons;
+
     public BodyMess(){
         super();
         responses   = new ArrayList<>();

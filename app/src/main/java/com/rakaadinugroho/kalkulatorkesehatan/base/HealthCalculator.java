@@ -7,15 +7,15 @@ package com.rakaadinugroho.kalkulatorkesehatan.base;
  * @Contact nugrohoraka@gmail.com
  */
 
-public class HealthCalc {
+public class HealthCalculator {
     private double height;
     private double weight;
 
-    public HealthCalc(){
+    public HealthCalculator(){
         this.height = 0;
         this.weight = 0;
     }
-    public HealthCalc(double height, double weight){
+    public HealthCalculator(double height, double weight){
         this.height = height;
         this.weight = weight;
     }
