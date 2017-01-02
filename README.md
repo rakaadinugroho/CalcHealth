@@ -1,7 +1,7 @@
 # CalcHealth
 Simple OOP with Java ( Case Study : Health Calculator)
-
-# Pembuat
+Fork! Now
+# Developed by
 * Irhan H
 * Raka A
 * Nurul H
